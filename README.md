@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+# 🚗 RN Smart Auto Loan App (แอปพลิเคชันคำนวณและวางแผนสินเชื่อรถยนต์อัจฉริยะ)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e9ce17b5-3ca4-45e5-827d-05819c64eec4" width="250" alt="Loan Calculator Screen"/>
+  <img src="https://github.com/user-attachments/assets/1e3fe15b-9167-4c5f-a221-a27525ad7bfb" width="250" alt="Loan Summary Screen"/>
+</p>
 
-## Get started
+## 📝 เกี่ยวกับโปรเจกต์ (About The Project)
+**RN Smart Auto Loan App** เป็นแอปพลิเคชันมือถือที่พัฒนาด้วย **React Native (Expo)** ออกแบบมาเพื่อช่วยให้ผู้ที่กำลังวางแผนจะซื้อรถยนต์ (ทั้งรถใหม่ป้ายแดงและรถมือสอง) สามารถคำนวณค่างวด ยอดจัดไฟแนนซ์ และสัดส่วนดอกเบี้ยได้อย่างแม่นยำและรวดเร็ว ช่วยให้การวางแผนทางการเงินและการตัดสินใจซื้อรถเป็นเรื่องง่ายขึ้น
 
-1. Install dependencies
+An intelligent auto loan calculator and financial planning mobile application built with **React Native (Expo)**. It enables users to estimate monthly car payments, calculate total interest, analyze down payment percentages, and view visual financial break-downs for both new and used vehicles.
 
+---
+
+## ✨ คุณสมบัติเด่น (Features)
+* 🧮 **Advanced Loan Calculator:** ระบบคำนวณสินเชื่อรถยนต์อย่างละเอียด รองรับการเลือกประเภทรถ (New / Used), ใส่ราคารถ, สัดส่วนเงินดาวน์ (Down Payment %), อัตราดอกเบี้ยต่อปี (Interest Rate) และระยะเวลาผ่อนชำระ (Payment Term)
+* 📊 **Visual Financial Summary:** หน้ารายงานสรุปยอดจัดไฟแนนซ์และดอกเบี้ยทั้งหมด มาพร้อม **Pie Chart** (กราฟวงกลม) แสดงสัดส่วนทางการเงินระหว่างเงินต้นและดอกเบี้ยรวม ช่วยให้เห็นภาพรวมหนี้ชัดเจน
+* 💵 **Monthly Payment Breakdown:** แสดงค่างวดที่ต้องผ่อนชำระต่อเดือนอย่างแม่นยำ แยกสัดส่วนภาษีหรือเงื่อนไขตามประเภทรถ
+* 💾 **Save Results:** สามารถบันทึกผลการคำนวณเก็บไว้เปรียบเทียบภายหลังได้
+* 🎨 **Professional Financial UI:** ดีไซน์หน้าจอที่เน้นความสะอาด อ่านง่าย และเลือกใช้โทนสีส้ม-ขาว-ดำ ที่ให้ความรู้สึกทันสมัยและเป็นมืออาชีพ
+
+---
+
+## 🛠️ เทคโนโลยีที่ใช้ (Tech Stack)
+* **Framework:** React Native (Expo)
+* **Language:** JavaScript / TypeScript
+* **Charts:** React Native SVG Charts / React Native Chart Kit (หรือ Library กราฟที่คุณเลือกใช้)
+* **Styling:** NativeWind / Tailwind CSS (or React Native StyleSheet)
+* **Icons:** React Native Vector Icons (Lucide / Ionicons / FontAwesome)
+
+---
+
+## 🚀 การติดตั้งและเริ่มใช้งาน (Getting Started)
+
+### Prerequisites
+ตรวจสอบว่าเครื่องของคุณติดตั้ง [Node.js](https://nodejs.org/) และ [Expo Go](https://expo.dev/go) บนมือถือเรียบร้อยแล้ว
+
+### Installation
+1. คลอนรีโพสิทอรีนี้ไปยังเครื่องของคุณ (Clone the repository)
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone [https://github.com/uttza01-maker/rn-smart-auto-loan-app.git](https://github.com/uttza01-maker/rn-smart-auto-loan-app.git)

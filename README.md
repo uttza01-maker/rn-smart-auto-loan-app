@@ -1,7 +1,7 @@
 # 🚗 RN Smart Auto Loan App (แอปพลิเคชันคำนวณและวางแผนสินเชื่อรถยนต์อัจฉริยะ)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e9ce17b5-3ca4-45e5-827d-05819c64eec4" width="250" alt="Loan Calculator Screen"/>
+
   <img src="https://github.com/user-attachments/assets/1e3fe15b-9167-4c5f-a221-a27525ad7bfb" width="250" alt="Loan Summary Screen"/>
 </p>
 
